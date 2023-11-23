@@ -1,5 +1,4 @@
-n=4
-for i in range (n,0,-1):
-    for j in range(1,i+1):
-        print("q ",end='')
-    print()
+digit=input("Enter a 2 digit number: ")
+a=int(digit[0])
+b=int(digit[1])
+print(f"Sum = {a+b}")
