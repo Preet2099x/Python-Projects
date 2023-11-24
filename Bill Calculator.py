@@ -1,6 +1,7 @@
+import time
 print("Welcome to the Bill Calculator.\n")
 
-original_amt = int(input("What is the amount of the total bill? \n"))
+original_amt = float(input("What is the amount of the total bill? \n"))
 
 # Tax
 amt = original_amt + (0.09 * original_amt)
@@ -35,3 +36,4 @@ if input("Would you like to see a breakdown of the bill?\n(Enter Y for Yes and N
     if "split_bill" in locals():
         print(f"Amount per person after splitting: {split_bill:.2f}")
         
+time.sleep(10)
