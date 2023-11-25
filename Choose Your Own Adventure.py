@@ -44,6 +44,28 @@ intro_text = '''
  nery, terrible conflict, and unending hope.  .  .     .   .     . .    .
 '''
 
+choice=input('''
+Chapter 1: The Apprentice's Dilemma
+
+You, Starkiller, stand before a Jedi survivor. Do you:
+
+1. Spare the Jedi: Turn away from the dark side and spare the Jedi.
+2. Kill the Jedi: Embrace the dark side and strike down the Jedi.
+''')
+if(choice==1):
+    choice=input('''
+                  
+Chapter 2: The Seed of Redemption
+
+You spare the Jedi, resisting the pull of the dark side. As you continue your journey, your interactions with Juno Eclipse, a Rebel pilot, become crucial. How do you interact with her?
+
+Show restraint and compassion: Act with empathy and restraint.
+Show aggression and dominance: Assert your power and dominance.
+''')
+    
+
+
+
 # Print the introduction text with a delay
 print_with_delay(intro_text)
 
